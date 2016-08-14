@@ -1,0 +1,3 @@
+= libcalculatorfinance-lfe
+
+Lisp Flavored Erlang port of libcalculatorfinance.
