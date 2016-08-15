@@ -1,3 +1,23 @@
 = libcalculatorfinance-lfe
 
 Lisp Flavored Erlang port of libcalculatorfinance.
+
+== Loading in BEAM
+
+To load the application, first start lfe: +
+
+++++
+~/mydevfolder/libcalculatorfinance-lfe/ > lfe
+++++
+
+Then load the project: +
+
+++++
+> (c "src/libcalculatorfinance.lfe") 
+++++
+
+And then you can call the functions like this: +
+
+++++
+> (libcalculatorfinance:version)
+++++
